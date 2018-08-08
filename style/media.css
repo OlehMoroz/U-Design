@@ -1,0 +1,190 @@
+@media screen and (min-width: 992px){
+    .container{
+        padding: 0 0;
+    }
+}
+
+   
+@media screen and (max-width: 768px){
+    .page_header{
+        justify-content: flex-start;
+        padding-top: 0;
+        min-height: 64px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menu_control{
+        position: absolute;
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+}
+
+  @media screen and (max-width: 768px){
+    .menu_list{
+        transition: transform 0.5s;
+        transition: transform 0.5s;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 999;
+        background: #000;
+        transform: translateX(-100%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menu_item{
+         width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menu_item > a{
+        padding: 1rem;
+        color: #1c1b1b;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .menu_item > a{
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+}
+  
+@media screen and (max-width: 768px){
+    .page_logo{
+        flex-basis: 20%;
+        margin-left: 3.8rem;
+    }
+}
+  
+@media screen and (max-width: 768px){
+    .logo_text{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page_title > h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page_baner > .baner_image > img{
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page_baner-link{
+        top: -10%;
+        left: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .asymmetric-background:before{
+        margin-right: 0;
+        transform: translateX(0);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .asymmetric-background:before{
+        margin-right: 20%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page_element{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page_block{
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer_logo{
+        top: 20%;
+        left: 100%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer_content{
+        top: 25%;
+        left: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer_content_title{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer_info{
+        bottom: -90%;
+        left: 120%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer_links{
+        top: 60%;
+        transform: translateX(-53%);
+    }
+}
+  
+@media screen and (max-width: 768px){
+    .footer_links-text{
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page_footer .footer_links-images> * svg > path{
+        fill: #fff;
+    }
+}
+  
+@media screen and (max-width: 768px){
+    .footer_links-bottom{
+        top: 70%;
+        transform: translateX(-42%);
+    }
+}
+  
+@media screen and (max-width: 768px){
+    .page_footer .footer_links-bottom > a{
+        color: #fff;
+    }
+}
